@@ -1,0 +1,30 @@
+# Ambiente
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Configurazione locale e segreti
+.env
+*.env.local
+
+# Dati dell'applicazione (mai committare)
+data/
+exports/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Sistema ed editor
+.DS_Store
+._*
+*.log
+.VSCodeCounter/
+.idea/
+.vscode/
+
