@@ -44,18 +44,19 @@ Everything runs on your computer and all your data stays in a local database —
 Open a terminal in the project folder and run:
 
 ```bash
-pip install -r requirements.txt
+python3.12 -m venv .venv
+.venv/bin/pip install -r requirements.txt
 ```
 
-```bash
-python run.py
-```
+> On Windows use `.venv\Scripts\pip install -r requirements.txt` instead of `.venv/bin/pip install -r requirements.txt`.
 
 ## Run it
 
 ```bash
-python run.py
+python3 run.py
 ```
+
+> On Windows use `python run.py`.
 
 The app starts and opens your browser at **http://127.0.0.1:8090**.
 The first run creates the settings file and the database automatically —
