@@ -311,8 +311,7 @@ def shell(title: str, active_route: str) -> None:
     with ui.header().classes("h-[64px] bg-white border-b border-slate-200 shadow-none z-30"):
         with ui.row().classes("items-center justify-between h-full max-w-[1140px] mx-auto px-6 w-full"):
             with ui.row().classes("items-center gap-3"):
-                with ui.element("div").classes("w-9 h-9 rounded-xl bg-[#0F60F9] flex items-center justify-center text-white shadow-sm shadow-blue-200"):
-                    ui.icon("mail", size="20px")
+                ui.image("/brand/icon.png").classes("w-9 h-9 rounded-xl object-cover select-none").props('alt="ilPostino"')
                 ui.label("ilPostino").classes("text-[17px] font-bold text-slate-900 tracking-tight leading-none")
 
             with ui.row().classes("items-center gap-1.5"):

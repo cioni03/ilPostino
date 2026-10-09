@@ -1,8 +1,20 @@
-# ilPostino
+<p align="center">
+  <img src="app/ilPostino_icon.png" width="140" alt="ilPostino">
+</p>
 
-A small, self-hosted app for managing your contacts and sending email newsletters
-from your own SMTP accounts. Everything runs on your computer and all your data
-stays in a local database — nothing is sent to any external service.
+<h1 align="center">ilPostino</h1>
+
+<p align="center">
+  <a href="#what-it-does"><img src="https://img.shields.io/badge/Privacy-Zero%20Data%20Collection-16a34a?style=for-the-badge" alt="Privacy - Zero Data Collection"></a>
+  <a href="#your-data"><img src="https://img.shields.io/badge/Hosting-100%25%20Local-0F60F9?style=for-the-badge" alt="Hosting - 100% Local"></a>
+  <a href="#requirements"><img src="https://img.shields.io/badge/Python-3.12%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.12+"></a>
+  <a href="#your-data"><img src="https://img.shields.io/badge/Database-SQLite-475569?style=for-the-badge&logo=sqlite&logoColor=white" alt="Database - SQLite"></a>
+</p>
+
+<p align="center">
+A small local app for managing your newsletters and send it from your own SMTP accounts. 
+Everything runs on your computer and all your data stays in a local database — nothing is sent to any external service.
+</p>
 
 ## What it does
 
@@ -25,22 +37,18 @@ stays in a local database — nothing is sent to any external service.
 
 ## Requirements
 
-- Python 3.10 or newer
+- Python 3.12 or newer
 
 ## Installation
 
 Open a terminal in the project folder and run:
 
 ```bash
-# 1. Create a virtual environment
-python3 -m venv .venv
-
-# 2. Activate it
-source .venv/bin/activate        # macOS / Linux
-# .venv\Scripts\activate         # Windows
-
-# 3. Install the requirements
 pip install -r requirements.txt
+```
+
+```bash
+python run.py
 ```
 
 ## Run it
