@@ -10,7 +10,7 @@ from datetime import datetime
 from app import services, templating
 from app.mailer import MailSendError, SmtpSession, build_message, classify_smtp_error
 
-logger = logging.getLogger("newsletter.worker")
+logger = logging.getLogger("ilpostino.worker")
 
 
 class CampaignTask:

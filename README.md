@@ -1,4 +1,4 @@
-# Newsletter Studio (ilPostino)
+# ilPostino
 
 A small, self-hosted app for managing your contacts and sending email newsletters
 from your own SMTP accounts. Everything runs on your computer and all your data
@@ -65,7 +65,7 @@ Settings live in the `.env` file (created on the first run from
 ## Your data
 
 All your contacts, templates and campaign history are stored in a single
-SQLite database file (by default `data/newsletter.db`). To make a backup,
+SQLite database file (by default `data/ilpostino.db`). To make a backup,
 just copy that file while the app is closed.
 
 ## Note

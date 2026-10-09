@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Punto d'ingresso: avvia Newsletter Studio con `python run.py`.
+"""Punto d'ingresso: avvia ilPostino con `python run.py`.
 
 Se lanciato con un interprete diverso da quello della venv locale (es. il
 Python di sistema), riavvia automaticamente se stesso con `.venv/bin/python`.

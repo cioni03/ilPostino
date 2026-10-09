@@ -28,7 +28,7 @@ def main() -> None:
     nicegui_ui.run(
         host=settings.host,
         port=settings.port,
-        title="Newsletter Studio",
+        title="ilPostino",
         reload=False,
         show=settings.show_browser,
         favicon="📬",

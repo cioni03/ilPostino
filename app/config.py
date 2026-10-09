@@ -10,7 +10,7 @@ ENV_FILE = BASE_DIR / ".env"
 DEFAULTS = {
     "HOST": "127.0.0.1",
     "PORT": "8090",
-    "DATABASE_PATH": "data/newsletter.db",
+    "DATABASE_PATH": "data/ilpostino.db",
     "SHOW_BROWSER": "true",
 }
 

@@ -64,7 +64,7 @@ def build_message(*, from_addr: str, from_name: str | None, reply_to: str | None
     msg["Subject"] = subject
     msg["Date"] = formatdate(localtime=True)
     msg["Message-ID"] = make_msgid(domain=from_addr.split("@")[-1] if "@" in from_addr else "localhost")
-    msg["X-Mailer"] = "Newsletter Studio (locale)"
+    msg["X-Mailer"] = "ilPostino (locale)"
     msg["Precedence"] = "bulk"
     msg.set_content(html_to_text(html) or " ")
     msg.add_alternative(html or "<html><body></body></html>", subtype="html")

@@ -313,7 +313,7 @@ def shell(title: str, active_route: str) -> None:
             with ui.row().classes("items-center gap-3"):
                 with ui.element("div").classes("w-9 h-9 rounded-xl bg-[#0F60F9] flex items-center justify-center text-white shadow-sm shadow-blue-200"):
                     ui.icon("mail", size="20px")
-                ui.label("Newsletter Studio").classes("text-[17px] font-bold text-slate-900 tracking-tight leading-none")
+                ui.label("ilPostino").classes("text-[17px] font-bold text-slate-900 tracking-tight leading-none")
 
             with ui.row().classes("items-center gap-1.5"):
                 for route, label, icon in NAV_ITEMS:
@@ -1675,7 +1675,7 @@ def page_templates() -> None:
 DEFAULT_HTML = """<div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 28px; color: #1e293b; background: #ffffff; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: 0 2px 6px rgba(0,0,0,0.03);">
   <h2 style="color: #0F60F9; margin-top: 0;">Ciao {{ first_name }}!</h2>
   <p style="font-size: 15px; line-height: 1.6; color: #475569;">
-    Questa è la tua nuova email inviata comodamente con <strong>Newsletter Studio</strong>.
+    Questa è la tua nuova email inviata comodamente con <strong>ilPostino</strong>.
   </p>
   <p style="font-size: 15px; line-height: 1.6; color: #475569;">
     Puoi inserire campi personalizzati come la tua azienda: <em>{{ company }}</em>.
